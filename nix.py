@@ -280,13 +280,16 @@ oks=[]
 cps=[]
 loop=0
 logo=(f"""
-\033[1;92m        `7MN.   `7MF'`7MMF'`YMM'   `MP' 
-          MMN.    M    MM    VMb.  ,P   
- \033[1;31m         M YMb   M    MM     `MM.M'    
-\033[1;31m          M  `MN. M    MM       MMb     
- \033[1;31m         M   `MM.M    MM     ,M'`Mb.   
-\033[1;92m          M     YMM    MM    ,P   `MM.  
-\033[1;92m        .JML.    YM  .JMML..MM:.  .:MMa.
+\033[1;92m     
+    #    ######        # #     # #     # 
+   # #   #     #       # #     # ##    # 
+  #   #  #     #       # #     # # #   # 
+ #     # ######        # #     # #  #  # 
+ ####### #   #   #     # #     # #   # # 
+ #     # #    #  #     # #     # #    ## 
+ #     # #     #  #####   #####  #     # 
+                                         
+
 __________________________________________________
 
  \033[1;92m   ▁ ▂ ▃ ▅ ▆ ▇ █ \033[1;31mAUTHOR:MR:ARJUN\033[1;92m █ ▇ ▆ ▅ ▃ ▂ ▁                                                         
@@ -327,7 +330,7 @@ def result(OKs,cps):
         print(' TOTAL CP: \x1b[1;96m%s' % str(len(cps)))
         input("Press enter to back ARJUN Menu ")
         exit()
-os.system("xd-open https://github.com/Mrchiksa")
+os.system("xd-open https://chat.whatsapp.com/B9QRbLWGW7M4Pc43Drbyxz")
 def menu():   
     os.system('clear')
     print(logo)
@@ -343,7 +346,7 @@ def menu():
   ###  elif select =='2':
        ## random_number()
     elif select =='3':
-       os.system('xdg-open https://t.me/+8801332718196');menu()
+       os.system('xdg-open https://t.me/+xTCzN93CRd03Yzhl');menu()
     else:
         print('\n Select Wrong option ... ')
         time.sleep(2)
